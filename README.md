@@ -43,6 +43,4 @@ Projeto focado na aplicação de modelos preditivos para análise de dados relac
 
 Cada projeto possui um notebook próprio que pode ser acessado diretamente pelo Google Colab. Também é possível baixar os arquivos `.ipynb` e executá-los localmente em ambientes como Jupyter Notebook ou VS Code.
 
-## Autor
 
-**Emilly Fernandes**  
