@@ -22,7 +22,7 @@ Notebook voltado à otimização de um pipeline de Machine Learning, com foco em
 
 ---
 
-### 2. Modelagem Preditiva de Saúde Mental
+### 2. Modelagem Preditiva de Saúde Mental (AP1)
 
 Projeto focado na aplicação de modelos preditivos para análise de dados relacionados à saúde mental, buscando identificar padrões e realizar previsões com base nas variáveis disponíveis.
 
@@ -39,8 +39,24 @@ Projeto focado na aplicação de modelos preditivos para análise de dados relac
 
 ---
 
-## Como visualizar os projetos
+### 3. Classificação com AutoGluon — Campanha de Marketing Bancário (AP2)
 
-Cada projeto possui um notebook próprio que pode ser acessado diretamente pelo Google Colab. Também é possível baixar os arquivos `.ipynb` e executá-los localmente em ambientes como Jupyter Notebook ou VS Code.
+Projeto focado na construção e avaliação de modelos de classificação utilizando **AutoGluon**, com o objetivo de prever se um cliente aceitaria uma oferta de **depósito a prazo** após uma campanha de marketing bancário.
 
+A base utilizada apresenta um problema de classificação binária, em que a variável-alvo indica se o cliente contratou ou não o produto oferecido. Durante o projeto, também foi analisado o impacto do desbalanceamento das classes e o risco de **data leakage** causado pela variável `duracao`, que representa a duração da ligação.
+
+**Principais tópicos abordados:**
+
+- Carregamento e preparação dos dados
+- Análise exploratória da variável-alvo
+- Tratamento de dados desbalanceados
+- Treinamento de modelos com AutoGluon
+- Comparação entre modelos com e sem possível vazamento de dados
+- Avaliação por métricas como acurácia, precision, recall, F1-score e ROC-AUC
+- Ajuste de limiar de decisão
+- Análise de importância das variáveis
+- Discussão sobre aplicação do modelo em cenário real
+
+**Notebook:**  
+[Abrir no Google Colab](https://colab.research.google.com/drive/1vA-tsS7r8Na2T6cFbyVfAGJ_-q1zQtAy#scrollTo=QgEXd36yP0dj)
 
